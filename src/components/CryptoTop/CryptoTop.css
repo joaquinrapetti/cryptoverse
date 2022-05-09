@@ -1,0 +1,17 @@
+.crypto-top {
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+  background-color: red;
+}
+
+.card {
+  width: 18rem;
+  height: 18rem;
+  background-color: yellow;
+  border-radius: 5px;
+}
