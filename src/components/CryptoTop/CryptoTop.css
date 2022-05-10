@@ -1,17 +1,70 @@
-.crypto-top {
-  width: 95%;
+.crypto-container {
+  width: 98%;
   height: auto;
   margin: 0 auto;
+}
+
+.crypto-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 99%;
+}
+
+.crypto-title > h1 {
+  color: rgb(43, 43, 43);
+}
+
+.crypto-title > .show-more {
+  color: rgb(68, 168, 235);
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.crypto-top {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 1rem;
-  background-color: red;
 }
 
 .card {
+  color: rgb(94, 94, 94);
   width: 18rem;
-  height: 18rem;
-  background-color: yellow;
+  height: 14rem;
+  background-color: rgba(255, 255, 255, 0.945);
   border-radius: 5px;
+}
+
+.card-content {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.card-title {
+  color: rgb(66, 66, 66);
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+}
+
+.card-stats {
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+.card-stats > p {
+  padding: 0.3rem;
+}
+
+.card-title > img {
+  width: 24px;
 }

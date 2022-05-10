@@ -11,6 +11,6 @@ body {
 
 .App {
   display: grid;
-  grid-template-columns: 20rem auto;
+  grid-template-columns: 35vh auto;
   height: 100vh;
 }

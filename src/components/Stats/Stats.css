@@ -1,0 +1,35 @@
+.stats-container {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.stats-container > h1 {
+  color: rgb(43, 43, 43);
+}
+
+.stats-menu {
+  margin: 2rem auto;
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-stats {
+  width: 100%;
+}
+
+p {
+  margin: 0;
+  font-weight: 500;
+  color: rgb(129, 129, 129);
+}
+
+h3 {
+  margin: 1rem auto;
+  color: rgb(77, 77, 77);
+}
+
+.right-stats {
+  width: 100%;
+}
